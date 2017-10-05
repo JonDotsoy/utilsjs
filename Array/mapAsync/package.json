@@ -1,0 +1,30 @@
+{
+  "name": "@jondotsoy/map-async",
+  "version": "1.0.0",
+  "description": "map elements with an async function",
+  "homepage": "https://github.com/JonDotsoy/utilsjs/tree/master/Array/mapAsync#readme",
+  "bugs": {
+    "url": "https://github.com/JonDotsoy/utilsjs/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register"
+  },
+  "keywords": [
+    "array",
+    "util",
+    "map"
+  ],
+  "author": {
+    "name": "Jonathan Delgado",
+    "email": "hi@jon.soy",
+    "url": "https://jon.soy"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  }
+}
