@@ -1,8 +1,8 @@
 {
   "name": "@jondotsoy/filter-async",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "private": false,
-  "description": "filter elements with an async function",
+  "description": "filterAsync to array elements",
   "homepage": "https://github.com/JonDotsoy/utilsjs/tree/master/Array/filterAsync#readme",
   "bugs": {
     "url": "https://github.com/JonDotsoy/utilsjs/issues"

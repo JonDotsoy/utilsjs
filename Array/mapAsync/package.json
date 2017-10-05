@@ -1,7 +1,7 @@
 {
   "name": "@jondotsoy/map-async",
-  "version": "1.0.0",
-  "description": "map elements with an async function",
+  "version": "1.0.2",
+  "description": "mapAsync to array elements",
   "homepage": "https://github.com/JonDotsoy/utilsjs/tree/master/Array/mapAsync#readme",
   "bugs": {
     "url": "https://github.com/JonDotsoy/utilsjs/issues"

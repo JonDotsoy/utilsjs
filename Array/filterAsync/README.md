@@ -12,8 +12,7 @@ const {filterAsync} = require("@jondotsoy/filter-async")
 // ES6
 import filterAsync from "@jondotsoy/filter-async"
 
-filterAsync([1,2,3,4,5,6,7,8], async (el, indexEl, arr) => (el % 2 === 0))
-// .then(console.log)
+await filterAsync([1, 2, 3, 4, 5, 6, 7, 8], async (el, indexEl, arr) => (el % 2 === 0))
 // => [2, 4, 6, 8]
 ```
 
@@ -25,7 +24,7 @@ require("@jondotsoy/filter-async/polyfill")
 // ES6
 import "@jondotsoy/filter-async/polyfill"
 
-[1,2,3,4,5,6,7,8].filterAsync(async (el, indexEl, arr) => (el % 2 === 0))
+await [1, 2, 3, 4, 5, 6, 7, 8].filterAsync(async (el, indexEl, arr) => (el % 2 === 0))
 // .then(console.log)
 // => [2, 4, 6, 8]
 ```
