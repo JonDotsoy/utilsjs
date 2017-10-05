@@ -25,6 +25,5 @@ require("@jondotsoy/filter-async/polyfill")
 import "@jondotsoy/filter-async/polyfill"
 
 await [1, 2, 3, 4, 5, 6, 7, 8].filterAsync(async (el, indexEl, arr) => (el % 2 === 0))
-// .then(console.log)
 // => [2, 4, 6, 8]
 ```

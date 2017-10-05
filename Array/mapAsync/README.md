@@ -25,6 +25,5 @@ require("@jondotsoy/map-async/polyfill")
 import "@jondotsoy/map-async/polyfill"
 
 await [1, 2, 3, 4, 5, 6, 7, 8].mapAsync(async (el, indexEl, arr) => (el * 2))
-// .then(console.log)
 // => [2, 4, 6, 8, 10, 12, 14, 16]
 ```
