@@ -1,8 +1,12 @@
 {
   "name": "@jondotsoy/filter-async",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "private": false,
   "description": "filter elements with an async function",
+  "homepage": "https://github.com/JonDotsoy/utilsjs/tree/master/Array/filterAsync#readme",
+  "bugs": {
+    "url": "https://github.com/JonDotsoy/utilsjs/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register"
@@ -12,11 +16,7 @@
     "util",
     "filter"
   ],
-  "author": {
-    "name": "Jonathan Delgado",
-    "email": "hi@jon.soy",
-    "url": "https://jon.soy"
-  },
+  "author": "Jonathan Delgado <hi@jon.soy> (https://jon.soy)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -24,5 +24,13 @@
     "babel-preset-env": "^1.6.0",
     "chai": "^4.1.2",
     "mocha": "^4.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonDotsoy/utilsjs.git"
+  },
+  "dependencies": {}
 }
